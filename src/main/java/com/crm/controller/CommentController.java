@@ -15,6 +15,9 @@ public class CommentController {
 
     // Constructor injection
     public CommentController(PostRepository postRepository, CommentRepository commentRepository) {
+
+        System.out.println(1000);
+        System.out.println(1000);
         this.postRepository = postRepository;
         this.commentRepository = commentRepository;
     }
